@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AqshalFirizki</string>
+    <string name="perkenalan">Halo Gais ! saya Mochamad Aqshal Firizki salam kenal ya , saya memiliki hobby bermain games Pubg Mobile.</string>
+    <string name="desc">Saya lahir di Kota Bandung pada tanggal 07 Mei 2001. Saya Kuliah di Universitas Komputer Indonesia jurusan Teknik Informatika, kelas IF9</string>
+    <string name="nama">Mochamad Aqshal Firizki </string>
+    <string name="hobby">Hobby</string>
+    <string name="interest">Interest</string>
+    <string name="cita2">Cita-cita</string>
+    <string name="alamat">Alamat</string>
+    <string name="makes">Makes</string>
+    <string name="mikes">Mikes</string>
+    <string name="james">James Arthur</string>
+    <string name="fav">Musik dan Video Favorit</string>
+    <string name="favorite_song">Favorite Song</string>
+
+</resources>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical"
+    >
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical"
+     android:layout_marginLeft="20dp"
+     android:layout_marginRight="20dp"
+     >
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:background="@drawable/decor_btm">
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="My Profile"
+             android:textColor="@color/white"
+             android:textStyle="bold"
+             android:textSize="22dp"
+             android:gravity="center"
+             />
+
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:orientation="vertical">
+         <de.hdodenhof.circleimageview.CircleImageView
+             android:layout_width="150dp"
+             android:layout_height="150dp"
+             android:src="@drawable/calprof"
+             android:layout_marginTop="20dp"
+             android:id="@+id/profile"
+             android:elevation="1dp"/>
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginEnd="20dp"
+             android:layout_marginBottom="10dp"
+             android:layout_marginStart="20dp"
+             android:gravity="center"
+             android:layout_marginTop="15dp"
+             android:text="@string/nama"
+             android:textSize="20dp"
+             android:textStyle="bold">
+
+         </TextView>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginEnd="20dp"
+             android:layout_marginBottom="10dp"
+             android:layout_marginStart="20dp"
+             android:gravity="center"
+             android:layout_marginTop="15dp"
+             android:text="@string/desc"
+             android:textSize="15dp">
+
+         </TextView>
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+         <LinearLayout
+             android:layout_width="280dp"
+             android:layout_height="150dp"
+             android:background="@color/colorbg"
+             android:gravity="center"
+             android:layout_margin="20dp"
+             android:layout_weight="1"
+             android:orientation="vertical"
+             >
+             <ImageButton
+                 android:layout_width="40dp"
+                 android:layout_height="40dp"
+                 android:id="@+id/wa_btn"
+                 android:src="@drawable/whatsapp">
+
+             </ImageButton>
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:gravity="center"
+                 android:layout_marginTop="10dp"
+                 android:text="Whatsapp"
+                 android:textColor="@color/white"
+                 android:textSize="15sp">
+
+             </TextView>
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="280dp"
+             android:layout_height="150dp"
+             android:layout_margin="20dp"
+             android:layout_weight="1"
+             android:background="@color/colorbg"
+             android:gravity="center"
+             android:orientation="vertical">
+
+             <ImageButton
+                 android:id="@+id/ig_btn"
+                 android:layout_width="40dp"
+                 android:layout_height="40dp"
+                 android:src="@drawable/instagram">
+
+             </ImageButton>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="10dp"
+                 android:gravity="center"
+                 android:text="Instagram"
+                 android:textColor="@color/white"
+                 android:textSize="15sp">
+
+             </TextView>
+         </LinearLayout>
+
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+         <LinearLayout
+             android:layout_width="280dp"
+             android:layout_height="150dp"
+             android:background="@color/colorbg"
+             android:gravity="center"
+             android:layout_margin="20dp"
+             android:layout_weight="1"
+             android:orientation="vertical"
+             >
+             <ImageButton
+                 android:layout_width="40dp"
+                 android:layout_height="40dp"
+                 android:id="@+id/map_btn"
+                 android:src="@drawable/googlemaps">
+
+             </ImageButton>
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:gravity="center"
+                 android:layout_marginTop="10dp"
+                 android:text="Maps"
+                 android:textColor="@color/white"
+                 android:textSize="15sp">
+
+             </TextView>
+         </LinearLayout>
+         <LinearLayout
+             android:layout_width="280dp"
+             android:layout_height="150dp"
+             android:background="@color/colorbg"
+             android:gravity="center"
+             android:layout_margin="20dp"
+             android:layout_weight="1"
+             android:orientation="vertical"
+             >
+             <ImageButton
+                 android:layout_width="40dp"
+                 android:layout_height="40dp"
+                 android:src="@drawable/info"
+                 android:id="@+id/about_btn">
+
+             </ImageButton>
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:gravity="center"
+                 android:layout_marginTop="10dp"
+                 android:text="About"
+                 android:textColor="@color/white"
+                 android:textSize="15sp">
+
+             </TextView>
+         </LinearLayout>
+
+     </LinearLayout>
+
+ </LinearLayout>
+</LinearLayout>

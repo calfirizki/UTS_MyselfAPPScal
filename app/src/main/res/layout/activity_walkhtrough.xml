@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_spc"
+    android:backgroundTint="@color/blue_spc"
+    tools:context=".walkhtrough">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/slideViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="625dp"
+        android:contentDescription="Enter How Much Cookies You Want"
+        android:hint="e.g 8">
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/dotslayout"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slideViewPager"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/prevBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/slideViewPager"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/dotslayout"
+        android:autoText="false"
+        android:background="@null"
+        android:backgroundTint="@null"
+        android:text="Back"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/slideViewPager"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/dotslayout"
+        android:autoText="false"
+        android:background="@null"
+        android:backgroundTint="@null"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text=">"
+        android:textColor="@color/white" />
+</RelativeLayout>
